@@ -1,0 +1,664 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Catarina</title>
+    <meta name="description" content="Catarina">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="vendor/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="vendor/select2/select2.min.css">
+    <link rel="stylesheet" href="vendor/owlcarousel/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdn.rawgit.com/noelboss/featherlight/1.7.13/release/featherlight.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tempusdominus-bootstrap-4/5.0.1/css/tempusdominus-bootstrap-4.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.1/css/brands.css">
+
+    <!-- Fonts -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700|Josefin+Sans:300,400,700">
+    <link rel="stylesheet" href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
+    <!-- CSS -->
+      <link id="dark-theme" rel="stylesheet" href="css/style.min.css">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.js"></script>
+
+</head>
+<body data-spy="scroll" data-target="#navbar" class="static-layout">
+	<div id="side-nav" class="sidenav">
+	<a href="javascript:void(0)" id="side-nav-close">&times;</a>
+	
+	<div class="sidenav-content">
+		<p>
+			Kuncen WB1, Wirobrajan 10010, DIY
+		</p>
+		<p>
+			<span class="fs-16 primary-color">(+68) 120034509</span>
+		</p>
+		<p>info@yourdomain.com</p>
+	</div>
+</div>	<div id="side-search" class="sidenav">
+	<a href="javascript:void(0)" id="side-search-close">&times;</a>
+	<div class="sidenav-content">
+		<form action="">
+
+			<div class="input-group md-form form-sm form-2 pl-0">
+			  <input class="form-control my-0 py-1 red-border" type="text" placeholder="Search" aria-label="Search">
+			  <div class="input-group-append">
+			    <button class="input-group-text red lighten-3" id="basic-text1">
+			    	<i class="fas fa-search text-grey" aria-hidden="true"></i>
+			    </button>
+			  </div>
+			</div>
+
+		</form>
+	</div>
+	
+ 	
+</div>	<div id="canvas-overlay"></div>
+	<div class="boxed-page">
+		<nav id="navbar-header" class="navbar navbar-expand-lg">
+    <div class="container">
+        <a class="navbar-brand navbar-brand-center d-flex align-items-center p-0 only-mobile" href="/">
+            <img src="img/logo.png" alt="">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="lnr lnr-menu"></span>
+        </button>
+
+        <div class="collapse navbar-collapse justify-content-between" id="navbarSupportedContent">
+            <ul class="navbar-nav d-flex justify-content-between">
+                <li class="nav-item only-desktop">
+                    <a class="nav-link" id="side-nav-open" href="#">
+                        <span class="lnr lnr-menu"></span>
+                    </a>
+                </li>
+                <div class="d-flex flex-lg-row flex-column">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">Sobre</a>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          Pratos especiais
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <a class="dropdown-item" href="special-dishes.html">Jantar</a>
+                          <a class="dropdown-item" href="special-dishes.html">Pratos da semana</a>
+                        </div>
+                    </li>
+                </div>
+            </ul>
+            
+            <a class="navbar-brand navbar-brand-center d-flex align-items-center only-desktop" href="#">
+                <img src="img/logo.png" alt="">
+            </a>
+            <ul class="navbar-nav d-flex justify-content-between">
+                <div class="d-flex flex-lg-row flex-column">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="menu.html">Menu</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="team.html">Time</a>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link" href="reservation.html">Reservas</a>
+                    </li>
+                </div>
+                <li class="nav-item">
+                    <a id="side-search-open" class="nav-link" href="#">
+                        <span class="lnr lnr-magnifier"></span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>		<div class="hero">
+  <div class="container">
+	<div class="row d-flex align-items-center">
+		<div class="col-lg-6 hero-left">
+		    <h1 class="display-4 mb-5">Comida boa <br>é poesia para o paladar.</h1>
+		    <div class="mb-2">
+		    	<a class="btn btn-primary btn-shadow btn-lg" href="#" role="button">Explore o Menu</a>
+                <a href="javascript:void(0)" onclick="share()">
+                    <img width="35" height="35" src="img/compartilhar.png" class="share-btn" alt="">
+                  </a>
+		    </div>
+		   
+		    <ul class="hero-info list-unstyled d-flex text-center mb-0">
+		    	<li class="border-right">
+		    		<span class="lnr lnr-rocket"></span>
+		    		<h5>
+		    			Entrega rápida
+		    		</h5>
+		    	</li>
+		    	<li class="border-right">
+		    		<span class="lnr lnr-leaf"></span>
+		    		<h5>
+		    			comida fresca
+		    		</h5>
+		    	</li>
+		    	<li class="">
+		    		<span class="lnr lnr-bubble"></span>
+		    		<h5>
+		    			suporte 24h
+		    		</h5>
+		    	</li>
+		    </ul>
+
+	    </div>
+	    <div class="col-lg-6 hero-right">
+	    	<div class="owl-carousel owl-theme hero-carousel">
+			    <div class="item">
+			    	<img class="img-fluid" src="img/hero-1.jpg" alt="">
+			    </div>
+			    <div class="item">
+			    	<img class="img-fluid" src="img/hero-2.jpg" alt="">
+			    </div>
+			    <div class="item">
+			    	<img class="img-fluid" src="img/hero-3.jpg" alt="">
+			    </div>
+			</div>
+	    </div>
+	</div>
+  </div>
+</div>		<!-- Welcome Section -->
+<section id="gtco-welcome" class="bg-white section-padding">
+    <div class="container">
+        <div class="section-content">
+            <div class="row">
+                <div class="col-sm-5 img-bg d-flex shadow align-items-center justify-content-center justify-content-md-end img-2" style="background-image: url(img/hero-2.jpg);">
+                    
+                </div>
+                <div class="col-sm-7 py-5 pl-md-0 pl-4">
+                    <div class="heading-section pl-lg-5 ml-md-5">
+                        <span class="subheading">
+                            Bem vindo
+                        </span>
+                        <h2>
+                            Típico Brasileiro
+                        </h2>
+                    </div>
+                    <div class="pl-lg-5 ml-md-5">
+                        <p>No coração da cidade, o Catarina Restaurant é uma ode à culinária brasileira, onde tradição e inovação se encontram para criar uma experiência gastronômica única. Este restaurante fictício, meticulosamente projetado para ser uma celebração dos sabores do Brasil, é um refúgio para os amantes da boa comida que desejam explorar as riquezas da cozinha tipicamente brasileira, elevadas a um patamar gourmet.
+
+                            Ao adentrar o Catarina Restaurant, você é envolvido por uma atmosfera calorosa e acolhedora. A decoração mescla elementos modernos com toques de tradição, </p>
+                        <h3 class="mt-5">Saboreie outros pratos</h3>
+                        <div class="row">
+                            <div class="col-4">
+                                <a href="#" class="thumb-menu">
+                                    <img class="img-fluid img-cover" src="img/hero-4.jpg" />
+                                    <h6>Feijoada</h6>
+                                </a>
+                            </div>
+                            <div class="col-4">
+                                <a href="#" class="thumb-menu">
+                                    <img class="img-fluid img-cover" src="img/hero-1.jpg" />
+                                    <h6>Parmegiana</h6>
+                                </a>
+                            </div>
+                            <div class="col-4">
+                                <a href="#" class="thumb-menu">
+                                    <img class="img-fluid img-cover" src="img/hero-3.jpg"/>
+                                    <h6>Picanha</h6>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="gtco-special-dishes" class="bg-grey section-padding">
+    <div class="container">
+        <div class="section-content">
+            <div class="heading-section text-center">
+                <span class="subheading">
+                    Especiais
+                </span>
+                <h2>
+                    Pratos da semana
+                </h2>
+            </div>
+            <div class="row mt-5">
+                <div class="col-lg-5 col-md-6 align-self-center py-5">
+                    <h2 class="special-number">01.</h2>
+                    <div class="dishes-text">
+                        <h3><span>Bife</span><br> Bife ao molho</h3>
+                        <p class="pt-3">No universo da culinária, o Bife ao Molho do nosso restaurante é uma experiência que transcende o simples ato de comer. Cada pedaço suculento de carne é cuidadosamente selecionado e preparado para proporcionar uma explosão de sabores que dançam no paladar.</p>
+                        <h3 class="special-dishes-price">R$55.00</h3>
+                        <a href="#" class="btn-primary mt-3">Garanta já</a>
+                    </div>
+                </div>
+                <div class="col-lg-5 offset-lg-2 col-md-6 align-self-center mt-4 mt-md-0">
+                    <img src="img/steak.jpg" alt="" class="img-fluid shadow w-100">
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="col-lg-5 col-md-6 align-self-center order-2 order-md-1 mt-4 mt-md-0">
+                    <img src="img/salmon-zucchini.jpg" alt="" class="img-fluid shadow w-100">
+                </div>
+                <div class="col-lg-5 offset-lg-2 col-md-6 align-self-center order-1 order-md-2 py-5">
+                    <h2 class="special-number">02.</h2>
+                    <div class="dishes-text">
+                        <h3><span>Salmão</span><br> Salmão ao molho</h3>
+                        <p class="pt-3">Em nosso restaurante, apresentamos uma obra-prima culinária que captura a essência dos sabores marinhos: o Salmão Grelhado com Toque Citrus. Cada pedaço desse prato é uma celebração da frescura do mar, combinada com nuances cítricas que elevam a experiência a novas alturas.</p>
+                        <h3 class="special-dishes-price">R$62.00</h3>
+                        <a href="#" class="btn-primary mt-3">Garanta já <span><i class="fa fa-long-arrow-right"></i></span></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="gtco-menu" class="section-padding">
+    <div class="container">
+        <div class="section-content">
+            <div class="row mb-5">
+                <div class="col-md-12">
+                    <div class="heading-section text-center">
+                        <span class="subheading">
+                            Especialidades
+                        </span>
+                        <h2>
+                            Nosso menu
+                        </h2>
+                    </div>  
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 menu-wrap">
+                    <div class="heading-menu">
+                        <h3 class="text-center mb-5">Jantar</h3>
+                    </div>
+                    <div class="menus d-flex align-items-center">
+                        <div class="menu-img rounded-circle">
+                            <img class="img-fluid" src="img/hero-3.jpg" alt="">
+                        </div>
+                        <div class="text-wrap">
+                            <div class="row align-items-start">
+                                <div class="col-8">
+                                    <h4>Picanha Brasileira</h4>
+                                </div>
+                                <div class="col-4">
+                                    <h4 class="text-muted menu-price">R$70</h4>
+                                </div>
+                            </div>
+                            <p>Escolha o ponto da carne</p>
+                        </div>
+                    </div>
+                    <div class="menus d-flex align-items-center">
+                        <div class="menu-img rounded-circle">
+                            <img class="img-fluid" src="img/salmon-zucchini.jpg" alt="">
+                        </div>
+                        <div class="text-wrap">
+                            <div class="row align-items-start">
+                                <div class="col-8">
+                                    <h4>Salmão ao molho</h4>
+                                </div>
+                                <div class="col-4">
+                                    <h4 class="text-muted menu-price">R$62</h4>
+                                </div>
+                            </div>
+                            <p>Salmão a grelha</p>
+                        </div>
+                    </div>
+                    <div class="menus d-flex align-items-center">
+                        <div class="menu-img rounded-circle">
+                            <img class="img-fluid" src="img/steak.jpg" alt="">
+                        </div>
+                        <div class="text-wrap">
+                            <div class="row align-items-start">
+                                <div class="col-8">
+                                    <h4>Bife</h4>
+                                </div>
+                                <div class="col-4">
+                                    <h4 class="text-muted menu-price">R$55</h4>
+                                </div>
+                            </div>
+                            <p>Bife acompanhado de molho</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 menu-wrap">
+                    <div class="heading-menu">
+                        <h3 class="text-center mb-5">Entradas</h3>
+                    </div>
+                    <div class="menus d-flex align-items-center">
+                        <div class="menu-img rounded-circle">
+                            <img class="img-fluid" src="img/entrada1.jpg" alt="">
+                        </div>
+                        <div class="text-wrap">
+                            <div class="row align-items-start">
+                                <div class="col-8">
+                                    <h4>Coração de galinha</h4>
+                                </div>
+                                <div class="col-4">
+                                    <h4 class="text-muted menu-price">R$25</h4>
+                                </div>
+                            </div>
+                            <p>Acompanhado com fritas</p>
+                        </div>
+                    </div>
+                    <div class="menus d-flex align-items-center">
+                        <div class="menu-img rounded-circle">
+                            <img class="img-fluid" src="img/entrada2.jpg" alt="">
+                        </div>
+                        <div class="text-wrap">
+                            <div class="row align-items-start">
+                                <div class="col-8">
+                                    <h4>Bolinho crocante</h4>
+                                </div>
+                                <div class="col-4">
+                                    <h4 class="text-muted menu-price">R$30</h4>
+                                </div>
+                            </div>
+                            <p>bolinhos de frango e atum</p>
+                        </div>
+                    </div>
+                    <div class="menus d-flex align-items-center">
+                        <div class="menu-img rounded-circle">
+                            <img class="img-fluid" src="img/entrada3.jpg" alt="">
+                        </div>
+                        <div class="text-wrap">
+                            <div class="row align-items-start">
+                                <div class="col-8">
+                                    <h4>Cestinha crocante</h4>
+                                </div>
+                                <div class="col-4">
+                                    <h4 class="text-muted menu-price">R$35</h4>
+                                </div>
+                            </div>
+                            <p>Meat Ball, Mie</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 menu-wrap">
+                    <div class="heading-menu">
+                        <h3 class="text-center mb-5">Drinks</h3>
+                    </div>
+                    <div class="menus d-flex align-items-center">
+                        <div class="menu-img rounded-circle">
+                            <img class="img-fluid" src="img/drink1.jpg" alt="">
+                        </div>
+                        <div class="text-wrap">
+                            <div class="row align-items-start">
+                                <div class="col-8">
+                                    <h4>La tropicana</h4>
+                                </div>
+                                <div class="col-4">
+                                    <h4 class="text-muted menu-price">R$35</h4>
+                                </div>
+                            </div>
+                            <p>Laranja, hortelã, limão</p>
+                        </div>
+                    </div>
+                    <div class="menus d-flex align-items-center">
+                        <div class="menu-img rounded-circle">
+                            <img class="img-fluid" src="img/drink2.jpg" alt="">
+                        </div>
+                        <div class="text-wrap">
+                            <div class="row align-items-start">
+                                <div class="col-8">
+                                    <h4>Especial Natalino</h4>
+                                </div>
+                                <div class="col-4">
+                                    <h4 class="text-muted menu-price">R$30</h4>
+                                </div>
+                            </div>
+                            <p>Morango, frutas vermelhas e limão</p>
+                        </div>
+                    </div>
+                    <div class="menus d-flex align-items-center">
+                        <div class="menu-img rounded-circle">
+                            <img class="img-fluid" src="img/drink3.jpg" alt="">
+                        </div>
+                        <div class="text-wrap">
+                            <div class="row align-items-start">
+                                <div class="col-8">
+                                    <h4>Moranguito</h4>
+                                </div>
+                                <div class="col-4">
+                                    <h4 class="text-muted menu-price">R$20</h4>
+                                </div>
+                            </div>
+                            <p>Drink com morango e limão</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="gtco-testimonial" class="overlay bg-fixed section-padding" style="background-image: url(img/testi-bg.jpg);">
+    <div class="container">
+        <div class="section-content">
+            <div class="heading-section text-center">
+                <span class="subheading">
+                    Comentários
+                </span>
+                <h2>
+                    Comentários
+                </h2>
+            </div>
+            <div class="row">
+               
+                <div class="testi-content testi-carousel owl-carousel">
+                    <div class="testi-item">
+                        <i class="testi-icon fa fa-3x fa-quote-left"></i>
+                        <p class="testi-text">Minha experiência no restaurante foi incrível! Desde o momento em que entrei, fui recebido com uma atmosfera acolhedora e elegante.</p>
+                        <p class="testi-author">Paulo cordeiro</p>
+                        <p class="testi-desc">Catarina<span>Restaurant</span></p>
+                    </div>
+                    <div class="testi-item">
+                        <i class="testi-icon fa fa-3x fa-quote-left"></i>
+                        <p class="testi-text">O Catarina Restaurant é simplesmente excepcional. A elegância do ambiente combinada com a autenticidade da culinária brasileira cria uma experiência verdadeiramente única.</p>
+                        <p class="testi-author">Raquel Silva</p>
+                        <p class="testi-desc">Catarina <span>Restaurant</span></p>
+                    </div>
+                </div>
+             
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="gtco-team" class="bg-white section-padding">
+    <div class="container">
+        <div class="section-content">
+            <div class="heading-section text-center">
+                <span class="subheading">
+                    Chefe
+                </span>
+                <h2>
+                    Chefe de cozinha
+                </h2>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-md-4">
+                    <div class="team-card mb-5">
+                        <img class="img-fluid" src="img/chef-2.jpg" alt="">
+                        <div class="team-desc">
+                            <h4 class="mb-0">Catarina Sotero</h4>
+                            <p class="mb-1">Chefe e Ceo</p>
+                            <ul class="list-inline mb-0 team-social-links">
+                                <li class="list-inline-item">
+                                    <a href="#">
+                                        <i class="fab fa-facebook-f"></i>
+                                    </a>
+                                </li>
+                                <li class="list-inline-item">
+                                    <a href="#">
+                                        <i class="fab fa-twitter"></i>
+                                    </a>
+                                </li>
+                                <li class="list-inline-item">
+                                    <a href="#">
+                                        <i class="fab fa-instagram"></i>
+                                    </a>
+                                </li>
+                                <li class="list-inline-item">
+                                    <a href="#">
+                                        <i class="fab fa-google-plus-g"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+</section>
+
+</section>
+
+</section>
+
+<section id="gtco-reservation" class="bg-fixed bg-white section-padding overlay" style="background-image: url(img/reservation-bg.jpg);">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-5">
+                <div class="section-content bg-white p-5 shadow">
+                    <div class="heading-section text-center">
+                        <span class="subheading">
+                            Reserve
+                        </span>
+                        <h2>
+                            Reserve agora
+                        </h2>
+                    </div>
+                    <form method="post" name="contact-us" action="process.php">
+                        <div class="row">
+                            <div class="col-md-12 form-group">
+                                <input type="text" class="form-control" id="name" name="name" placeholder="Nome">
+                            </div>
+                            <div class="col-md-12 form-group">
+                                <input type="text" class="form-control" id="email" name="email" placeholder="Email">
+                            </div>
+                            <div class="col-md-12 form-group">
+                                <input type="number" class="form-control" id="phoneNumber" name="phoneNumber" placeholder="Telefone">
+                            </div>
+                            <div class="col-md-6 form-group">
+                                <div class="input-group date" id="datetimepicker4" data-target-input="nearest">
+                                    <input type="text" class="form-control datetimepicker-input" data-target="#datetimepicker4" placeholder="Data" />
+                                    <div class="input-group-append" data-target="#datetimepicker4" data-toggle="datetimepicker">
+                                        <div class="input-group-text">
+                                            <span class="lnr lnr-calendar-full"></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 form-group">
+                                <div class="input-group date" id="datetimepicker3" data-target-input="nearest">
+                                    <input type="text" class="form-control datetimepicker-input" data-target="#datetimepicker3" placeholder="Horário" />
+                                    <div class="input-group-append" data-target="#datetimepicker3" data-toggle="datetimepicker">
+                                        <div class="input-group-text">
+                                            <span class="lnr lnr-clock"></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+            
+                 
+                            <div class="col-md-12 form-group">
+                                <textarea class="form-control" id="message" name="message" rows="6" placeholder="Sua mensagem ..."></textarea>
+                            </div>
+                            <div class="col-md-12 text-center">
+                                <button class="btn btn-primary btn-shadow btn-lg" type="submit" name="submit">Enviar</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+</section>
+	<footer class="mastfoot pb-5 bg-white section-padding pb-0">
+    <div class="inner container">
+         <div class="row">
+         	<div class="col-lg-4">
+         		<div class="footer-widget pr-lg-5 pr-0">
+         			<img src="img/logo.png" class="img-fluid footer-logo mb-3" alt="">
+	         		<p>A atmosfera refinada do restaurante é um convite à celebração, seja para ocasiões especiais ou simplesmente para saborear momentos únicos. Cada prato conta uma história de paixão pela culinária.</p>
+	         		<nav class="nav nav-mastfoot justify-content-start">
+		                <a class="nav-link" href="#">
+		                	<i class="fab fa-facebook-f"></i>
+		                </a>
+		                <a class="nav-link" href="#">
+		                	<i class="fab fa-twitter"></i>
+		                </a>
+		                <a class="nav-link" href="#">
+		                	<i class="fab fa-instagram"></i>
+		                </a>
+		            </nav>
+         		</div>
+         		
+         	</div>
+         	<div class="col-lg-4">
+         		<div class="footer-widget px-lg-5 px-0">
+         			<h4>Open Hours</h4>
+	         		<ul class="list-unstyled open-hours">
+		                <li class="d-flex justify-content-between"><span>Segunda</span><span>9:00 - 24:00</span></li>
+		                <li class="d-flex justify-content-between"><span>Terça</span><span>9:00 - 24:00</span></li>
+		                <li class="d-flex justify-content-between"><span>Quarta</span><span>9:00 - 24:00</span></li>
+		                <li class="d-flex justify-content-between"><span>Quinta</span><span>9:00 - 24:00</span></li>
+		                <li class="d-flex justify-content-between"><span>Sexta</span><span>9:00 - 02:00</span></li>
+		                <li class="d-flex justify-content-between"><span>Sabado</span><span>9:00 - 02:00</span></li>
+		                <li class="d-flex justify-content-between"><span>Domingo</span><span>Fechado</span></li>
+		              </ul>
+         		</div>
+         		
+         	</div>
+
+         	<div class="col-lg-4">
+         		<div class="footer-widget pl-lg-5 pl-0">
+         			<h4>Newsletter</h4>
+	         		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+	         		<form id="newsletter">
+						<div class="form-group">
+							<input type="email" class="form-control" id="emailNewsletter" aria-describedby="emailNewsletter" placeholder="Enter email">
+						</div>
+						<button type="submit" class="btn btn-primary w-100">Enviar</button>
+					</form>
+         		</div>
+         		
+         	</div>
+         	<div class="col-md-12 d-flex align-items-center">
+         		<p class="mx-auto text-center mb-0">Copyright 2023. All Right Reserved. Design by Catarina</a></p>
+         	</div>
+            
+        </div>
+    </div>
+</footer>	</div>
+</div>
+	<!-- External JS -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.22.2/moment.min.js"></script>
+	<script src="vendor/bootstrap/popper.min.js"></script>
+	<script src="vendor/bootstrap/bootstrap.min.js"></script>
+	<script src="vendor/select2/select2.min.js "></script>
+	<script src="vendor/owlcarousel/owl.carousel.min.js"></script>
+	<script src="https://cdn.rawgit.com/noelboss/featherlight/1.7.13/release/featherlight.min.js"></script>
+	<script src="vendor/stellar/jquery.stellar.js" type="text/javascript" charset="utf-8"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/tempusdominus-bootstrap-4/5.0.1/js/tempusdominus-bootstrap-4.min.js"></script>
+
+	<script src="js/app.min.js "></script>
+</body>
+</html>
